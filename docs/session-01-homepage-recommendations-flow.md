@@ -1,6 +1,7 @@
 # Session 1: Use-case flow view: homepage recommendations for a returning user
 
-**Diagram:** [homepage-recs-flow.drawio](homepage-recs-flow.drawio). Open it in [app.diagrams.net](https://app.diagrams.net) or the VS Code Draw.io extension. Page 1 shows the chosen option and page 2 the rejected one.
+**Diagram:** [Homepage Recommendations Flow.drawio](../diagrams/Homepage%20Recommendations%20Flow.drawio). Open it in [app.diagrams.net](https://app.diagrams.net), or open the `.drawio.html` export in a browser. Page 1 shows the chosen option and page 2 the rejected one.
+**Decision record:** [ADR-001](../adr/ADR-001-precomputed-topk-vs-realtime-vector-search.md)
 
 **Scenario.** A known customer opens the Noon/Amazon-style app. The homepage shows 20 personalized products. Target: **P95 ≤ 150 ms server side**. The homepage must still render when ML is down.
 

@@ -1,7 +1,16 @@
 # ai-architecture-portfolio
 
-Deliverables from the **AI Architecture Design** course (Eng. Sameh Amin, MLOps MENA). Running case study: *Marketing Automation with AI & Agents* for an Amazon/Noon-style e-commerce business.
+Deliverables from the **AI Architecture Design** course. Case study: *Marketing Automation System with AI & Agents*.
 
-| Session | Mini project | Deliverables |
-|---|---|---|
-| 1. Architecture views, steps and process | Use-case flow view: homepage recommendations for a returning user | [notes](session-01-use-case-flow/NOTES.md) · [draw.io](session-01-use-case-flow/homepage-recs-flow.drawio) |
+| Folder | Contents |
+|---|---|
+| [adr/](adr) | Architecture Decision Records |
+| [capstone/](capstone) | Capstone project |
+| [diagrams/](diagrams) | draw.io diagrams (`.drawio` + `.drawio.html` export) |
+| [docs/](docs) | Notes and architecture documents |
+
+## Session 1: Use-case flow view
+
+- Diagram: [Homepage Recommendations Flow](diagrams/Homepage%20Recommendations%20Flow.drawio)
+- Notes: [session-01-homepage-recommendations-flow.md](docs/session-01-homepage-recommendations-flow.md)
+- Decision: [ADR-001: Precomputed top-K vs real-time vector search](adr/ADR-001-precomputed-topk-vs-realtime-vector-search.md)
